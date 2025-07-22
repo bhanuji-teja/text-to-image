@@ -1,0 +1,9 @@
+diffusers==0.27.2
+transformers==4.40.2
+huggingface-hub==0.22.2
+peft==0.10.0
+torch==2.3.0
+torchvision==0.18.0
+accelerate==0.28.0
+safetensors==0.4.2
+
