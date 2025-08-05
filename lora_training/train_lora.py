@@ -14,9 +14,9 @@ from peft import LoraConfig, get_peft_model
 model_id = "runwayml/stable-diffusion-v1-5"
 image_folder = "Images"
 output_dir = "lora_peft_output"
-prompt_text = "A glowing 3D medical-style human anatomical scan"
-rank = 4
-num_epochs = 10
+prompt_text = "A glowing 3D medical-style human anatomical scan with red-highlighted-muscles"
+rank = 8
+num_epochs = 25
 batch_size = 1
 learning_rate = 1e-4
 

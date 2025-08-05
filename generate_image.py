@@ -33,7 +33,7 @@ negative_prompt = (
 )
 
 # Settings
-num_images = 3
+num_images = 8
 guidance_scale = 8.5
 num_inference_steps = 50
 height = 768
